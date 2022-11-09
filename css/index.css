@@ -173,6 +173,7 @@ p {
   color: #000;
   translate: 10px 10px;
 }
+
 #blog{
     text-align: center;
     background-color: #fff;
@@ -274,7 +275,32 @@ footer{
     
 }
 
+@media only screen and (max-width: 237px){
 
+    .projects_stageOne, .project_stageTwo, .project_stageThree{
+       width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        
+        
+     }
+     .contact{
+        display: grid;
+        gap: 0px;
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .contact a{
+        color: #e8dfe1;
+        font-size: 10px;
+    }
+    .contact div{
+       width: 100%;
+      
+    }
+    .skill_grid img{
+        width: 50px;
+    }
+}
 
 
 
