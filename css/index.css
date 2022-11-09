@@ -274,13 +274,23 @@ footer{
     padding: 30px;
     
 }
-
+@media only screen and (max-width: 421px){
+  
+      .projects_stageOne, .project_stageTwo, .project_stageThree{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+        
+     }
+}
 @media only screen and (max-width: 237px){
 
-    .projects_stageOne, .project_stageTwo, .project_stageThree{
-       width: 100%;
-        grid-template-columns: repeat(1, 1fr);
+   
+
+     .projects_stageOne, .project_stageTwo, .project_stageThree{
+        display: block;
         
+       
         
      }
      .contact{
